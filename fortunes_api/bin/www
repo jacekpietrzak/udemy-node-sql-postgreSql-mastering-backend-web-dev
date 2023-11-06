@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+// executable file to start the server
+const app = require('../app');
+
+const port = 3000;
+
+app.listen(port, () => console.log(`Serwer is listening on port: ${port}`));
