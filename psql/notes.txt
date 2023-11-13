@@ -1,0 +1,9 @@
+SQL commands:
+
+Use CREATE TABLE to make a table. INSERT INTO <table> VALUES to insert entries into <table>.
+
+Use the SELECT keyword to query data. FROM to specify a database.
+
+Use the WHERE clause to limit data based on a condition. Use LIMIT <number> to limit the resulting queries to the top <number> results.
+
+Use JOIN … ON to combine two tables based on a given condition.
