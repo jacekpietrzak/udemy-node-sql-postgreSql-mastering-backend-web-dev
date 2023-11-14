@@ -1,0 +1,31 @@
+SQL commands:
+
+Use CREATE TABLE to make a table. INSERT INTO <table> VALUES to insert entries into <table>.
+
+Use the SELECT keyword to query data. FROM to specify a database.
+
+Use the WHERE clause to limit data based on a condition. Use LIMIT <number> to limit the resulting queries to the top <number> results.
+
+Use JOIN … ON to combine two tables based on a given condition.
+
+#Select all users from database
+SELECT * FROM pg_user
+
+#Exit database
+ctrl+d or \q
+
+#Check file permissions
+ls -l
+
+#Change file permissions
+chmod +x fileName - +x executable
+
+#in PSQL - List of relations
+\d
+
+# Authentication for server change
+# in Postgres app -> server settings -> HBA(Host Based Authentication) -> show -> drag the file to terminal and type "code" at the beginning to open in VSCode -> go to the bottom where is METHOD column. It is an authentication method.
+If we want password authentication we need to change "trust" to "md5" and save.
+Restart Server in the app -> stop -> start
+
+#If we run again our script it will ask for password
